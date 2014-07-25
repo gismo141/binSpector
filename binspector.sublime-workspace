@@ -1,0 +1,748 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"exec"
+			],
+			[
+				"myF",
+				"myFileDialog"
+			],
+			[
+				"this",
+				"thisParent"
+			],
+			[
+				"code",
+				"codeBrowser"
+			],
+			[
+				"setC",
+				"setCodeinSelection"
+			],
+			[
+				"doc",
+				"documentLayout"
+			],
+			[
+				"set",
+				"setupDocumentBrowser"
+			],
+			[
+				"res",
+				"resizeCodes"
+			],
+			[
+				"rem",
+				"removeItem"
+			],
+			[
+				"QState",
+				"QStateMaschine"
+			],
+			[
+				"docA",
+				"documentArea"
+			],
+			[
+				"aDL",
+				"activeDocumentLabel"
+			],
+			[
+				"DO",
+				"documentArea"
+			],
+			[
+				"cod",
+				"codeToRemove"
+			],
+			[
+				"getCo",
+				"getCode"
+			],
+			[
+				"find",
+				"findCodeInList"
+			],
+			[
+				"getCode",
+				"getCodeList"
+			],
+			[
+				"getC",
+				"getCodes"
+			],
+			[
+				"def",
+				"definition"
+			],
+			[
+				"retur",
+				"return"
+			],
+			[
+				"addC",
+				"addNewCode"
+			],
+			[
+				"if",
+				"if_	if(…)"
+			],
+			[
+				"new",
+				"newCodeInList"
+			],
+			[
+				"m_",
+				"m_name"
+			],
+			[
+				"codeSe",
+				"codeSettings"
+			],
+			[
+				"codeSet",
+				"codeSetup"
+			],
+			[
+				"abort",
+				"abortSetup"
+			],
+			[
+				"clas",
+				"class_	class"
+			],
+			[
+				"cla",
+				"class_	class"
+			],
+			[
+				"cl",
+				"class_	class"
+			],
+			[
+				"acti",
+				"activeDocument"
+			],
+			[
+				"add",
+				"addWidget"
+			],
+			[
+				"main",
+				"mainWidget"
+			],
+			[
+				"cods",
+				"codeSettings"
+			],
+			[
+				"size",
+				"sizeOfWidget"
+			],
+			[
+				"a",
+				"activeDocumentLabel"
+			],
+			[
+				"ac",
+				"activeDocument"
+			],
+			[
+				"Crea",
+				"CreateWindowLayout"
+			],
+			[
+				"eas",
+				"easyQDA"
+			],
+			[
+				"Y",
+				"YELLOW"
+			],
+			[
+				"g",
+				"gz"
+			],
+			[
+				"pi",
+				"picosafe_rootfs"
+			],
+			[
+				"titl",
+				"title{text}	latex-document"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "view/binspector.cpp",
+			"settings":
+			{
+				"buffer_size": 2153,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 199,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "view/binspector.h",
+			"settings":
+			{
+				"buffer_size": 1135,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/cupp.sublime-package/qt.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"bi",
+				"Build: Init"
+			],
+			[
+				"Build: cl",
+				"Build: Clean"
+			],
+			[
+				"Build: in",
+				"Build: Init"
+			],
+			[
+				"Build: cle",
+				"Build: Clean"
+			],
+			[
+				"Build: clea",
+				"Build: Clean"
+			],
+			[
+				"Build: c",
+				"Build: Cancel"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"sgdb",
+				"Preferences: SublimeGDB Settings – Default"
+			],
+			[
+				"subgdb",
+				"Preferences: SublimeGDB Settings – Default"
+			],
+			[
+				"gdb",
+				"Preferences: SublimeGDB Settings – User"
+			],
+			[
+				"sub",
+				"SublimeGDB: Open Breakpoint View"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Build: ",
+				"Build: Init"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mak",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"makr",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"Latex",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"col",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			]
+		],
+		"width": 615.0
+	},
+	"console":
+	{
+		"height": 576.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/michaelriedel/Developer/binSpector",
+		"/Users/michaelriedel/Developer/binSpector/control",
+		"/Users/michaelriedel/Developer/binSpector/model",
+		"/Users/michaelriedel/Developer/binSpector/view"
+	],
+	"file_history":
+	[
+		"/Users/michaelriedel/Developer/www/local.roswithasschneiderstube.de/config/settings.php",
+		"/Users/michaelriedel/Developer/binSpector/main.cpp",
+		"/Users/michaelriedel/Developer/fastQDA/view/fastqda.h",
+		"/Users/michaelriedel/Developer/fastQDA/model/code.h",
+		"/Users/michaelriedel/Developer/fastQDA/README.md",
+		"/Users/michaelriedel/Developer/fastQDA/view/codeSettings.cpp",
+		"/Users/michaelriedel/Developer/fastQDA/view/codeSettings.h",
+		"/Users/michaelriedel/Developer/fastQDA/model/code.cpp",
+		"/etc/apache2/httpd.conf",
+		"/etc/hosts",
+		"/Users/michaelriedel/Developer/www/local.roswithasschneiderstube.de/index.php",
+		"/Users/michaelriedel/Developer/fastQDA/view/fastqda.cpp",
+		"/Users/michaelriedel/Developer/fastQDA/view/mainWidget.cpp",
+		"/Users/michaelriedel/Developer/fastQDA/view/mainWidget.h",
+		"/Users/michaelriedel/Developer/fastQDA/view/codeList.h",
+		"/Users/michaelriedel/Developer/fastQDA/view/documentList.h",
+		"/Users/michaelriedel/Developer/fastQDA/view/documentList.cpp",
+		"/Users/michaelriedel/Developer/fastQDA/view/codeList.cpp",
+		"/Users/michaelriedel/Developer/fastQDA/fastqda.sublime-project",
+		"/Users/michaelriedel/Developer/fastQDA/main.cpp",
+		"/Users/michaelriedel/Developer/fastQDA/control/codeBrowser.h",
+		"/Users/michaelriedel/Developer/fastQDA/control/codeManager.cpp",
+		"/Users/michaelriedel/Developer/fastQDA/control/codeManager.h",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/SublimeLLDB/lldb.sublime-project",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/SublimeGDB.sublime-settings",
+		"/Users/michaelriedel/Developer/fastQDA/moc_codeSettings.cpp",
+		"/Users/michaelriedel/Developer/fastQDA/fastQDA.app/Contents/MacOS/fastQDA",
+		"/Users/michaelriedel/Developer/fastQDA/moc_mainWidget.cpp",
+		"/Users/michaelriedel/Documents/test/blubb/mainWindow.h",
+		"/Users/michaelriedel/Documents/test/blubb/blubb.cpp",
+		"/Users/michaelriedel/Developer/easyCoding/model/codeManager.h",
+		"/Users/michaelriedel/Developer/easyCoding/model/codeManager.cpp",
+		"/Users/michaelriedel/Developer/easyCoding/view/codeManager.h",
+		"/Users/michaelriedel/Developer/easyCoding/view/code.cpp",
+		"/Users/michaelriedel/Developer/easyCoding/view/code.h",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/cupp.sublime-package/qt.sublime-snippet",
+		"/Users/michaelriedel/Downloads/test.pdf",
+		"/Users/michaelriedel/Developer/easyCoding/view/easycoding.cpp",
+		"/Users/michaelriedel/Developer/easyCoding/view/easycoding.h",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/cupp.sublime-package/qt.sublime-build",
+		"/Users/michaelriedel/Developer/easyQDA/easyQDA.app/Contents/MacOS/easyQDA",
+		"/Users/michaelriedel/Developer/codetagger/picview.h",
+		"/Users/michaelriedel/Developer/codetagger/codetagger.pro",
+		"/Users/michaelriedel/Dropbox/Studium/Wahlpflichtmodule/MOP2/Uebungen/Uebung7/picviewer/picviewer/picview.h",
+		"/Users/michaelriedel/Dropbox/Studium/Wahlpflichtmodule/MOP2/Uebungen/Uebung7/picviewer/picviewer/main.cpp",
+		"/Users/michaelriedel/Dropbox/Studium/Wahlpflichtmodule/MOP2/Uebungen/Uebung7/picviewer/picviewer/picview.cpp",
+		"/Users/michaelriedel/Downloads/output.txt",
+		"/Users/michaelriedel/Downloads/xpdf-3.03/README",
+		"/Users/michaelriedel/Downloads/xpdf-3.03/INSTALL",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Bachelorarbeit/output.txt",
+		"/Users/michaelriedel/Downloads/xpdf-3.03/misc/output.txt",
+		"/Users/michaelriedel/Downloads/podofo-0.9.3/tools/podofotxtextract/TextExtractor.cpp",
+		"/Users/michaelriedel/Downloads/podofo-0.9.3/tools/podofotxtextract/podofotxtextract.cpp",
+		"/Users/michaelriedel/Downloads/podofo-0.9.3/tools/podofotxtextract/TextExtractor.h",
+		"/Users/michaelriedel/Downloads/podofo-0.9.3/CMakeFiles/CMakeError.log",
+		"/Users/michaelriedel/Downloads/podofo-0.9.3/tools/podofotxtextract/CMakeLists.txt",
+		"/Users/michaelriedel/test.tex",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Bachelorarbeit/Code/distantusb/src/sshfs_start.sh",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Bachelorarbeit/Code/distantusb/src/copy_keys.sh",
+		"/Users/michaelriedel/.bashrc",
+		"/Users/michaelriedel/Developer/params/params.sh",
+		"/Users/michaelriedel/Developer/raspberrypi-motd/motd.sh",
+		"/Users/michaelriedel/Developer/picosafe/rootfs/fillsdcard.sh",
+		"/Users/michaelriedel/Developer/picosafe/README.md",
+		"/Users/michaelriedel/Developer/picosafe/rootfs/README.md",
+		"/Users/michaelriedel/Developer/picosafe/rootfs/.gitignore",
+		"/Users/michaelriedel/Developer/picosafe/rootfs/genrootfs.sh",
+		"/Users/michaelriedel/Developer/picosafe/rootfs/gensdcard.sh",
+		"/Users/michaelriedel/.gitconfig",
+		"/Users/michaelriedel/Developer/picosafe/.gitignore",
+		"/Users/michaelriedel/Developer/picosafe/kernel/.gitignore",
+		"/Users/michaelriedel/Developer/picosafe/ToDO",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Bachelorarbeit/Code/Anpassungen/genrootfs.sh",
+		"/Volumes/TimeMachine/lpc3131/README.md",
+		"/Volumes/TimeMachine/lpc3131/rootfs/debian/debian_install/general_settings.sh",
+		"/Users/michaelriedel/Downloads/gnublin-distribution-master/lpc3131/rootfs/debian/debian_install/build_debian_system.sh",
+		"/Users/michaelriedel/Downloads/gnublin-distribution-master/lpc3131/rootfs/debian/debian_install/build_functions.sh",
+		"/Users/michaelriedel/Downloads/gnublin-distribution-master/lpc3131/tools/gnublin-installer/gnublin-installer-alt",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Studienarbeit/Studienarbeit.tex",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/private/etc/apache2/httpd.conf",
+		"/private/etc/hosts",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/michaelriedel/README.md",
+		"/Users/michaelriedel/Documents/test.md",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Studienarbeit/Setup/usepackage.tex",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Studienarbeit/usepackage.tex",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Praktikumsbericht DLR/Anhang/uml_diagramme.mp",
+		"/Users/michaelriedel/Developer/www/local.distantusb.de/index.php",
+		"/Users/michaelriedel/local.roswithasschneiderstube.de/index.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 107.0,
+		"where_history":
+		[
+			"",
+			"messageBox",
+			"easyQDA"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getAnker",
+			"m_anker",
+			"l_anker",
+			"updateActiveDocument",
+			"documentList",
+			"CTRL",
+			"theParent",
+			"mainWidget",
+			"codeList",
+			"fastQDA",
+			"this",
+			"codeArea",
+			"this",
+			"documentBrowser",
+			"QStateMaschine",
+			"documentBroswer",
+			"headers",
+			"spcenter",
+			"left",
+			"Left",
+			"left",
+			"Left",
+			"left",
+			"Left",
+			"left",
+			"QSize",
+			"QRect",
+			"QFile",
+			"QTextStream",
+			"QBrush",
+			"QStringList",
+			"QHeaderView",
+			"Expanding",
+			"this->",
+			"addNewCode",
+			"updateSettings",
+			"treeWidget",
+			"TreeWidget",
+			"treeWidget",
+			"addNewCode",
+			"RowHeight",
+			"setText",
+			"abortCode",
+			"mainLayout",
+			"QSpinBox",
+			"array",
+			"setColor",
+			"tag",
+			"format",
+			"codingArea",
+			"coding-Area",
+			"textArea",
+			"l_codingWindow",
+			"picMessageBox",
+			"PicView",
+			"myDialog",
+			"myAnsichtMenu",
+			"myDateiMenu",
+			"$i",
+			"i",
+			"Color",
+			"color",
+			"Color",
+			"color",
+			"Color",
+			"color",
+			"Color",
+			"color",
+			"ROOTFS",
+			"KERNELSRC",
+			"KEYFILE",
+			"keyfile",
+			"KEYFILE",
+			"PASSWORD",
+			"picosafe",
+			"Picosafe",
+			"picosafe",
+			"fold",
+			"Subtitle",
+			"Title",
+			"title",
+			"Title",
+			"roswithasschneiderstube"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"addCode",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "view/binspector.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.cpp",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "view/binspector.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 250.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 150.0
+	},
+	"project": "binspector.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
