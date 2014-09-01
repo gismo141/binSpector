@@ -6,4 +6,10 @@
 			"path": "."
 		}
 	]
+	,"settings":
+    {
+        "AStyleFormatter":
+        {
+        }
+    }
 }

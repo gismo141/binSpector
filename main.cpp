@@ -1,14 +1,28 @@
 #include <QApplication>
+#include <QTextStream>
 
-#include "view/binspector.h"
+#include "binspector.h"
 
-int main(int argc, char** argv) {
-	QApplication::setOrganizationName("MyCompany");
-QApplication::setApplicationName("MyApp");
-	QApplication app(argc, argv);
+int main(int argc, char **argv)
+{
+    QApplication::setOrganizationName("UniBw - Muenchen");
+    QApplication::setApplicationName("binspector");
+    QApplication app(argc, argv);
 
-    binspector mainWindow;
+    // STYLESHEET IS BUGGY!!!
+    /*QFile f(":qdarkstyle/style.qss");
+    if (!f.exists())
+    {
+        printf("Unable to set stylesheet, file not found\n");
+    }
+    else
+    {
+        f.open(QFile::ReadOnly | QFile::Text);
+        QTextStream ts(&f);
+        app.setStyleSheet(ts.readAll());
+    }*/
+
+    view::binspector mainWindow;
     mainWindow.show();
-    
     return app.exec();
 }

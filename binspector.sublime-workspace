@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"wi",
+				"widgetsInDock"
+			],
+			[
+				"bin",
+				"binaryDock"
+			],
+			[
+				"bi",
+				"binaryDock"
+			],
+			[
+				"nam",
+				"name	Namespace"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"if",
+				"ifnd	ifndef (…)"
+			],
+			[
+				"bins",
+				"binspector"
+			],
+			[
 				"ex",
 				"exec"
 			],
@@ -86,10 +114,6 @@
 			[
 				"addC",
 				"addNewCode"
-			],
-			[
-				"if",
-				"if_	if(…)"
 			],
 			[
 				"new",
@@ -179,39 +203,15 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "view/binspector.cpp",
-			"settings":
-			{
-				"buffer_size": 2153,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "main.cpp",
-			"settings":
-			{
-				"buffer_size": 199,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "view/binspector.h",
-			"settings":
-			{
-				"buffer_size": 1135,
-				"line_ending": "Unix"
-			}
-		}
 	],
-	"build_system": "Packages/User/cupp.sublime-package/qt.sublime-build",
+	"build_system": "Packages/User/cpp.sublime-package/qt.sublime-build",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 137.0,
 		"selected_items":
 		[
 			[
-				"bi",
+				"Build: i",
 				"Build: Init"
 			],
 			[
@@ -223,12 +223,52 @@
 				"Build: Init"
 			],
 			[
+				"Build: ini",
+				"Build: Init"
+			],
+			[
 				"Build: cle",
 				"Build: Clean"
 			],
 			[
 				"Build: clea",
 				"Build: Clean"
+			],
+			[
+				"Build: ",
+				"Build: Build"
+			],
+			[
+				"Build: pro",
+				"Build: Pack Product"
+			],
+			[
+				"Build: pr",
+				"Build: Pack Product"
+			],
+			[
+				"Build: cre",
+				"Build: Create plist"
+			],
+			[
+				"Build: say",
+				"Build: Say Name of Application"
+			],
+			[
+				"Build: sAY",
+				"Build: Say Name of Application"
+			],
+			[
+				"Build: b",
+				"Build: Build Product Package"
+			],
+			[
+				"Build: sig",
+				"Build: Sign"
+			],
+			[
+				"bi",
+				"Build: Init"
 			],
 			[
 				"Build: c",
@@ -261,10 +301,6 @@
 			[
 				"ins",
 				"Package Control: Install Package"
-			],
-			[
-				"Build: ",
-				"Build: Init"
 			],
 			[
 				"inst",
@@ -323,7 +359,7 @@
 				"Package Control: Upgrade Package"
 			]
 		],
-		"width": 615.0
+		"width": 471.0
 	},
 	"console":
 	{
@@ -347,12 +383,35 @@
 		"/Users/michaelriedel/Developer/binSpector",
 		"/Users/michaelriedel/Developer/binSpector/control",
 		"/Users/michaelriedel/Developer/binSpector/model",
-		"/Users/michaelriedel/Developer/binSpector/view"
+		"/Users/michaelriedel/Developer/binSpector/view",
+		"/Users/michaelriedel/Developer/binSpector/view/binary",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer"
 	],
 	"file_history":
 	[
-		"/Users/michaelriedel/Developer/www/local.roswithasschneiderstube.de/config/settings.php",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/visualizerDock.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/binary/binaryDock.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/binspector.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/visualizerDock.h",
+		"/Users/michaelriedel/Developer/binSpector/view/binary/binaryDock.h",
+		"/Users/michaelriedel/Developer/binSpector/view/iDock.h",
+		"/Users/michaelriedel/Developer/binSpector/view/binary/iDock.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/binspector.h",
 		"/Users/michaelriedel/Developer/binSpector/main.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizerDock.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizerDock.h",
+		"/Users/michaelriedel/Developer/binSpector/view/binaryDock.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/binaryDock.h",
+		"/Users/michaelriedel/Developer/binSpector/binspector.sublime-project",
+		"/Users/michaelriedel/Developer/binSpector/Makefile",
+		"/Users/michaelriedel/Developer/params/params.sh",
+		"/Users/michaelriedel/Dropbox/Apps/Texpad/Bachelorarbeit/Code/distantusb/internetsharing.sh",
+		"/Users/michaelriedel/Developer/binSpector/binSpector.pro",
+		"/Users/michaelriedel/Developer/makeIcons/makeIcons.sh",
+		"/Users/michaelriedel/Developer/octopress-gui/README.md",
+		"/Users/michaelriedel/Developer/binSpector/Entitlements.plist",
+		"/Users/michaelriedel/Developer/binSpector/binSpector",
+		"/Users/michaelriedel/Developer/www/local.roswithasschneiderstube.de/config/settings.php",
 		"/Users/michaelriedel/Developer/fastQDA/view/fastqda.h",
 		"/Users/michaelriedel/Developer/fastQDA/model/code.h",
 		"/Users/michaelriedel/Developer/fastQDA/README.md",
@@ -412,7 +471,6 @@
 		"/Users/michaelriedel/Dropbox/Apps/Texpad/Bachelorarbeit/Code/distantusb/src/sshfs_start.sh",
 		"/Users/michaelriedel/Dropbox/Apps/Texpad/Bachelorarbeit/Code/distantusb/src/copy_keys.sh",
 		"/Users/michaelriedel/.bashrc",
-		"/Users/michaelriedel/Developer/params/params.sh",
 		"/Users/michaelriedel/Developer/raspberrypi-motd/motd.sh",
 		"/Users/michaelriedel/Developer/picosafe/rootfs/fillsdcard.sh",
 		"/Users/michaelriedel/Developer/picosafe/README.md",
@@ -447,7 +505,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
@@ -464,6 +522,37 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"vec",
+			"codeList",
+			"visualizerDock",
+			"binaryDock",
+			"w_codeVisualizer",
+			"w_binaryDock",
+			"w_binaryBrowser",
+			"codeVisualizer",
+			"binaryBrowser",
+			"documentBrowser",
+			"binaryBrowser",
+			"icns",
+			"MyIcon",
+			"${ICON}",
+			"$ICON",
+			"ICON",
+			"icon",
+			"Icon",
+			"ICON",
+			"$1",
+			"Icon1024.png",
+			"$$(TARGET)",
+			"$$(COMPANY)",
+			"OTHER_FILES",
+			"Info.plist",
+			"Info",
+			"OTHER_FILES",
+			"QMAKE_INFO_PLIST",
+			"macdeployqt",
+			"yourcompany",
+			"MyApp",
 			"getAnker",
 			"m_anker",
 			"l_anker",
@@ -566,97 +655,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "view/binspector.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2153,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								335,
-								335
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "main.cpp",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 199,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								186,
-								189
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "view/binspector.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1135,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								278,
-								278
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -693,7 +693,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 250.0
+		"height": 385.0
 	},
 	"output.find_results":
 	{
@@ -733,6 +733,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},

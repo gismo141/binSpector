@@ -1,5 +1,3 @@
-#pragma once
-
 #ifndef BINSPECTOR_H
 #define BINSPECTOR_H
 
@@ -11,36 +9,66 @@
 #include <QMessageBox>
 #include <QTextEdit>
 
-class binspector : public QMainWindow {
-	Q_OBJECT
+#include "view/binary/basicInfo.h"
+#include "view/visualizer/callGraph/callGraph.h"
+#include "view/visualizer/controlFlowGraph/controlFlowGraph.h"
+#include "view/visualizer/controlAndDataFlowGraph/controlAndDataFlowGraph.h"
+#include "view/visualizer/memoryAllocation/memoryAllocation.h"
+
+namespace view
+{
+class binspector : public QMainWindow
+{
+    Q_OBJECT
 private:
-	QMenu                   *setupFileMenu(void);
+    void                    setupFileDialogs(void);
+    QMenu                   *setupFileMenu(void);
     QMenu                   *setupEditMenu(void);
     QMenu                   *setupViewMenu(void);
     QMenu                   *setupHelpMenu(void);
-    std::string             exec(const char* cmd);
+
+    void                    setupBinaryDock(void);
+    void                    setupVisualizerDock(void);
 protected:
-	QMenuBar                *myMenu;
-	QFileDialog             *myFileDialog;
+    QMenuBar                *myMenu;
+    QFileDialog             *myFileDialog;
     QFileDialog             *myProjectDialog;
-    QTextEdit               *myMainWidget;
-    QDockWidget             *binaryBrowser;
-    QDockWidget             *codeBrowser;
+
+    QString                 activeBinary;
+    QString                 temporaryFolder = "/tmp/binSpector/";
+    QString                 targetFolder;
+    QString                 projectExtension = ".binsp";
+
+    QWidget                 *mainWidget;
+    QDockWidget             *binaryDock;
+    QDockWidget             *visualizerDock;
+
+    view::binary::basicInfo                     *basicInfoTab;
+    view::visualizer::callGraph                 *callTab;
+    view::visualizer::controlFlowGraph          *cfgTab;
+    view::visualizer::controlAndDataFlowGraph   *cfgDfgTab;
+    view::visualizer::memoryAllocation          *memTab;
 public:
-	/**
-	 * @brief std. ctor
-	 */
-	binspector(void);
-public slots:
-	/**
-     * @brief This function shows a messagebox.
-     * @details At the moment there is only a `about`-box implemented.
+    /**
+     * @brief std. ctor
      */
-    void messageBox(void) {
-        QMessageBox::about(this, "binSpector", "binSpector is a fast and simple alternative to IDA PRO.\n\n\t(C) by Michael Riedel, 2014");
+    binspector(void);
+    void addBinaryTab(QWidget *newTab, const char *tabName);
+    void addVisualizerTab(QWidget *newTab, const char *tabName);
+    QString getActiveBinary(void);
+public slots:
+    /**
+     * @brief This function shows a messagebox.
+     * @details At the moment there is only an `about`-box implemented.
+     */
+    void messageBox(void)
+    {
+        QMessageBox::about(this, "binSpector", "binSpector is a fast, simple and extensable binary inspector GUI using the projects LLVM, dagger and fracture.\n\n\t(C) by Michael Riedel, 2014");
     }
     void setupMainWidget(void);
-    void importFile(const QString& name);
+    void openFile(const QString &name);
+    void showHelp(void);
+    void saveProject(void);
 };
-
+}
 #endif // BINSPECTOR_H
