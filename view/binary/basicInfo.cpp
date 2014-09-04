@@ -65,6 +65,5 @@ view::binary::basicInfo::basicInfo(QMainWindow *parent) {
 
 void view::binary::basicInfo::setFilename(const QString & name)
 {
-    //std::cout << name.toUtf8().constData() << std::endl;
     filename->setPlainText(name.toUtf8().constData());
 }

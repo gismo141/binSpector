@@ -1,0 +1,8 @@
+<map id="binSpector/view/visualizer/callGraph/callGraph.cpp" name="binSpector/view/visualizer/callGraph/callGraph.cpp">
+<area shape="rect" id="node4" href="$call_graph_8h.html" title="callGraph.h" alt="" coords="5,184,92,211"/>
+<area shape="rect" id="node6" href="$binspector_8h.html" title="../../binspector.h" alt="" coords="587,95,697,121"/>
+<area shape="rect" id="node13" href="$basic_info_8h.html" title="view/binary/basicInfo.h" alt="" coords="1269,184,1423,211"/>
+<area shape="rect" id="node19" href="$control_flow_graph_8h.html" title="view/visualizer/controlFlow\lGraph/controlFlowGraph.h" alt="" coords="1073,177,1245,218"/>
+<area shape="rect" id="node20" href="$control_and_data_flow_graph_8h.html" title="view/visualizer/controlAnd\lDataFlowGraph/controlAndDataFlow\lGraph.h" alt="" coords="1447,169,1680,225"/>
+<area shape="rect" id="node22" href="$memory_allocation_8h.html" title="view/visualizer/memoryAllocation\l/memoryAllocation.h" alt="" coords="168,177,375,218"/>
+</map>

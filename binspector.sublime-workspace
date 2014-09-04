@@ -4,12 +4,80 @@
 		"selected_items":
 		[
 			[
-				"wi",
-				"widgetsInDock"
+				"def",
+				"define"
+			],
+			[
+				"show",
+				"showHelp"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"binspec",
+				"binspector"
 			],
 			[
 				"bin",
-				"binaryDock"
+				"binspector"
+			],
+			[
+				"vi",
+				"view"
+			],
+			[
+				"QS",
+				"QStylePainter"
+			],
+			[
+				"dec",
+				"decompileIRButton"
+			],
+			[
+				"dis",
+				"disassembleButton"
+			],
+			[
+				"bas",
+				"basicInfoLayout"
+			],
+			[
+				"aL",
+				"addLayout"
+			],
+			[
+				"AL",
+				"addLayout"
+			],
+			[
+				"cl",
+				"clangHighlighter"
+			],
+			[
+				"llv",
+				"llvm_ir"
+			],
+			[
+				"name",
+				"name	Namespace"
+			],
+			[
+				"setFo",
+				"setFormatFor"
+			],
+			[
+				"vis",
+				"visualizerDock"
+			],
+			[
+				"new",
+				"newDockWidget"
+			],
+			[
+				"wi",
+				"widgetsInDock"
 			],
 			[
 				"bi",
@@ -18,10 +86,6 @@
 			[
 				"nam",
 				"name	Namespace"
-			],
-			[
-				"name",
-				"namespace"
 			],
 			[
 				"if",
@@ -104,20 +168,12 @@
 				"getCodes"
 			],
 			[
-				"def",
-				"definition"
-			],
-			[
 				"retur",
 				"return"
 			],
 			[
 				"addC",
 				"addNewCode"
-			],
-			[
-				"new",
-				"newCodeInList"
 			],
 			[
 				"m_",
@@ -141,10 +197,6 @@
 			],
 			[
 				"cla",
-				"class_	class"
-			],
-			[
-				"cl",
 				"class_	class"
 			],
 			[
@@ -207,32 +259,40 @@
 	"build_system": "Packages/User/cpp.sublime-package/qt.sublime-build",
 	"command_palette":
 	{
-		"height": 137.0,
+		"height": 93.0,
 		"selected_items":
 		[
 			[
-				"Build: i",
+				"Build: in",
 				"Build: Init"
+			],
+			[
+				"Build: clea",
+				"Build: Clean"
 			],
 			[
 				"Build: cl",
 				"Build: Clean"
 			],
 			[
-				"Build: in",
-				"Build: Init"
-			],
-			[
-				"Build: ini",
-				"Build: Init"
+				"ss",
+				"Set Syntax: LLVM"
 			],
 			[
 				"Build: cle",
 				"Build: Clean"
 			],
 			[
-				"Build: clea",
-				"Build: Clean"
+				"Build: c",
+				"Build: Cancel"
+			],
+			[
+				"Build: i",
+				"Build: Init"
+			],
+			[
+				"Build: ini",
+				"Build: Init"
 			],
 			[
 				"Build: ",
@@ -269,10 +329,6 @@
 			[
 				"bi",
 				"Build: Init"
-			],
-			[
-				"Build: c",
-				"Build: Cancel"
 			],
 			[
 				"in",
@@ -382,31 +438,101 @@
 	[
 		"/Users/michaelriedel/Developer/binSpector",
 		"/Users/michaelriedel/Developer/binSpector/control",
+		"/Users/michaelriedel/Developer/binSpector/control/disassembler",
+		"/Users/michaelriedel/Developer/binSpector/documentation",
+		"/Users/michaelriedel/Developer/binSpector/documentation/images",
 		"/Users/michaelriedel/Developer/binSpector/model",
 		"/Users/michaelriedel/Developer/binSpector/view",
 		"/Users/michaelriedel/Developer/binSpector/view/binary",
-		"/Users/michaelriedel/Developer/binSpector/view/visualizer"
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget/help",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget/llvm_ir",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/callGraph",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/controlAndDataFlowGraph",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/controlFlowGraph",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/memoryAllocation"
 	],
 	"file_history":
 	[
-		"/Users/michaelriedel/Developer/binSpector/view/visualizer/visualizerDock.cpp",
-		"/Users/michaelriedel/Developer/binSpector/view/binary/binaryDock.cpp",
-		"/Users/michaelriedel/Developer/binSpector/view/binspector.cpp",
-		"/Users/michaelriedel/Developer/binSpector/view/visualizer/visualizerDock.h",
-		"/Users/michaelriedel/Developer/binSpector/view/binary/binaryDock.h",
-		"/Users/michaelriedel/Developer/binSpector/view/iDock.h",
-		"/Users/michaelriedel/Developer/binSpector/view/binary/iDock.cpp",
+		"/Users/michaelriedel/Developer/binSpector/control/disassembler/disassembler.h",
+		"/Users/michaelriedel/.bashrc",
+		"/Library/Caches/Homebrew/libcxx/Makefile",
+		"/Users/michaelriedel/Developer/fracture/Makefile",
 		"/Users/michaelriedel/Developer/binSpector/view/binspector.h",
+		"/Users/michaelriedel/Developer/binSpector/view/binspector.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget/llvm_ir/llvm_ir.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/guiFunctions.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget/llvm_ir/llvm_ir.h",
+		"/Users/michaelriedel/Developer/main.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/controlAndDataFlowGraph/controlAndDataFlowGraph.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/callGraph/callGraph.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/callGraph/callGraph.h",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/controlFlowGraph/controlFlowGraph.h",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/memoryAllocation/memoryAllocation.h",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/controlFlowGraph/controlFlowGraph.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/memoryAllocation/memoryAllocation.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/binary/basicInfo.h",
+		"/Users/michaelriedel/Developer/binSpector/view/binary/basicInfo.cpp",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/MultiMarkdown.sublime-settings",
+		"/Users/michaelriedel/Developer/binSpector/documentation/main.cpp",
+		"/Users/michaelriedel/Developer/binSpector/.gitignore",
+		"/Users/michaelriedel/Developer/binSpector/README.md",
+		"/Users/michaelriedel/Developer/distantusb/docs/Makefile",
+		"/Users/michaelriedel/Developer/binSpector/documentation/Doxyfile",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/michaelriedel/Developer/main.ir",
+		"/Users/michaelriedel/Developer/LLVM.tmLanguage",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/controlAndDataFlowGraph/controlAndDataFlowGraph.h",
+		"/Users/michaelriedel/Downloads/graph.dot",
 		"/Users/michaelriedel/Developer/binSpector/main.cpp",
+		"/Users/michaelriedel/Developer/binSpector/binSpector.pro",
+		"/Users/michaelriedel/Developer/binSpector/control/codeEditor/codeEditor.h",
+		"/Users/michaelriedel/Developer/binSpector/control/codeEditor/codeEditor.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget/help/help.cpp",
+		"/Users/michaelriedel/Developer/binSpector/control/codeEditor/lineNumberArea.h",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget/lineNumberArea/lineNumberArea.h",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget/lineNumberArea/lineNumberArea.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget/llvm/llvm_ir.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget/llvm/llvm_ir.h",
+		"/Users/michaelriedel/Developer/binSpector/control/syntax/clang/clangHighlighter.cpp",
+		"/Users/michaelriedel/Developer/binSpector/control/syntax/clang/clangHighlighter.h",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget/help/help.h",
+		"/Users/michaelriedel/Developer/binSpector/view/main/llvm/llvm_ir.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/main/llvm/llvm_ir.h",
+		"/Users/michaelriedel/Developer/binSpector/view/main/mainWidget.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/main/mainWidget.h",
+		"/Users/michaelriedel/Developer/binSpector/control/syntax_highlighter/llvm_ir/llvmHighlighter.cpp",
+		"/Users/michaelriedel/Developer/binSpector/control/syntax_highlighter/llvm_ir/llvmHighlighter.h",
+		"/Users/michaelriedel/Developer/binSpector/binspector.cpp",
+		"/Users/michaelriedel/Developer/binSpector/binspector.h",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget/mainWidget.h",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget/mainWidget.cpp",
+		"/Users/michaelriedel/Developer/binSpector/control/syntax_highlighter/llvm_ir/llvm_ir.cpp",
+		"/Users/michaelriedel/Developer/binSpector/control/syntax_highlighter/llvm_ir/llvm_ir.h",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget.h",
+		"/Users/michaelriedel/Developer/binSpector/view/mainWidget/llvm_ir.h",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/controlFlowGraph.h",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/controlFlowGraph.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/memoryAllocation.h",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/memoryAllocation.cpp",
+		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/cpp.sublime-package/qt.sublime-build",
+		"/Users/michaelriedel/Developer/binSpector/Makefile",
+		"/Users/michaelriedel/Developer/binSpector/view/binary/binaryDock.h",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/visualizerDock.h",
+		"/Users/michaelriedel/Developer/binSpector/view/binary/binaryDock.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/iDock.h",
+		"/Users/michaelriedel/Developer/binSpector/view/iDock.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/visualizer/visualizerDock.cpp",
+		"/Users/michaelriedel/Developer/binSpector/view/binary/iDock.cpp",
 		"/Users/michaelriedel/Developer/binSpector/view/visualizerDock.cpp",
 		"/Users/michaelriedel/Developer/binSpector/view/visualizerDock.h",
 		"/Users/michaelriedel/Developer/binSpector/view/binaryDock.cpp",
 		"/Users/michaelriedel/Developer/binSpector/view/binaryDock.h",
 		"/Users/michaelriedel/Developer/binSpector/binspector.sublime-project",
-		"/Users/michaelriedel/Developer/binSpector/Makefile",
 		"/Users/michaelriedel/Developer/params/params.sh",
 		"/Users/michaelriedel/Dropbox/Apps/Texpad/Bachelorarbeit/Code/distantusb/internetsharing.sh",
-		"/Users/michaelriedel/Developer/binSpector/binSpector.pro",
 		"/Users/michaelriedel/Developer/makeIcons/makeIcons.sh",
 		"/Users/michaelriedel/Developer/octopress-gui/README.md",
 		"/Users/michaelriedel/Developer/binSpector/Entitlements.plist",
@@ -456,52 +582,7 @@
 		"/Users/michaelriedel/Developer/codetagger/codetagger.pro",
 		"/Users/michaelriedel/Dropbox/Studium/Wahlpflichtmodule/MOP2/Uebungen/Uebung7/picviewer/picviewer/picview.h",
 		"/Users/michaelriedel/Dropbox/Studium/Wahlpflichtmodule/MOP2/Uebungen/Uebung7/picviewer/picviewer/main.cpp",
-		"/Users/michaelriedel/Dropbox/Studium/Wahlpflichtmodule/MOP2/Uebungen/Uebung7/picviewer/picviewer/picview.cpp",
-		"/Users/michaelriedel/Downloads/output.txt",
-		"/Users/michaelriedel/Downloads/xpdf-3.03/README",
-		"/Users/michaelriedel/Downloads/xpdf-3.03/INSTALL",
-		"/Users/michaelriedel/Dropbox/Apps/Texpad/Bachelorarbeit/output.txt",
-		"/Users/michaelriedel/Downloads/xpdf-3.03/misc/output.txt",
-		"/Users/michaelriedel/Downloads/podofo-0.9.3/tools/podofotxtextract/TextExtractor.cpp",
-		"/Users/michaelriedel/Downloads/podofo-0.9.3/tools/podofotxtextract/podofotxtextract.cpp",
-		"/Users/michaelriedel/Downloads/podofo-0.9.3/tools/podofotxtextract/TextExtractor.h",
-		"/Users/michaelriedel/Downloads/podofo-0.9.3/CMakeFiles/CMakeError.log",
-		"/Users/michaelriedel/Downloads/podofo-0.9.3/tools/podofotxtextract/CMakeLists.txt",
-		"/Users/michaelriedel/test.tex",
-		"/Users/michaelriedel/Dropbox/Apps/Texpad/Bachelorarbeit/Code/distantusb/src/sshfs_start.sh",
-		"/Users/michaelriedel/Dropbox/Apps/Texpad/Bachelorarbeit/Code/distantusb/src/copy_keys.sh",
-		"/Users/michaelriedel/.bashrc",
-		"/Users/michaelriedel/Developer/raspberrypi-motd/motd.sh",
-		"/Users/michaelriedel/Developer/picosafe/rootfs/fillsdcard.sh",
-		"/Users/michaelriedel/Developer/picosafe/README.md",
-		"/Users/michaelriedel/Developer/picosafe/rootfs/README.md",
-		"/Users/michaelriedel/Developer/picosafe/rootfs/.gitignore",
-		"/Users/michaelriedel/Developer/picosafe/rootfs/genrootfs.sh",
-		"/Users/michaelriedel/Developer/picosafe/rootfs/gensdcard.sh",
-		"/Users/michaelriedel/.gitconfig",
-		"/Users/michaelriedel/Developer/picosafe/.gitignore",
-		"/Users/michaelriedel/Developer/picosafe/kernel/.gitignore",
-		"/Users/michaelriedel/Developer/picosafe/ToDO",
-		"/Users/michaelriedel/Dropbox/Apps/Texpad/Bachelorarbeit/Code/Anpassungen/genrootfs.sh",
-		"/Volumes/TimeMachine/lpc3131/README.md",
-		"/Volumes/TimeMachine/lpc3131/rootfs/debian/debian_install/general_settings.sh",
-		"/Users/michaelriedel/Downloads/gnublin-distribution-master/lpc3131/rootfs/debian/debian_install/build_debian_system.sh",
-		"/Users/michaelriedel/Downloads/gnublin-distribution-master/lpc3131/rootfs/debian/debian_install/build_functions.sh",
-		"/Users/michaelriedel/Downloads/gnublin-distribution-master/lpc3131/tools/gnublin-installer/gnublin-installer-alt",
-		"/Users/michaelriedel/Dropbox/Apps/Texpad/Studienarbeit/Studienarbeit.tex",
-		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/private/etc/apache2/extra/httpd-vhosts.conf",
-		"/private/etc/apache2/httpd.conf",
-		"/private/etc/hosts",
-		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/michaelriedel/README.md",
-		"/Users/michaelriedel/Documents/test.md",
-		"/Users/michaelriedel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/michaelriedel/Dropbox/Apps/Texpad/Studienarbeit/Setup/usepackage.tex",
-		"/Users/michaelriedel/Dropbox/Apps/Texpad/Studienarbeit/usepackage.tex",
-		"/Users/michaelriedel/Dropbox/Apps/Texpad/Praktikumsbericht DLR/Anhang/uml_diagramme.mp",
-		"/Users/michaelriedel/Developer/www/local.distantusb.de/index.php",
-		"/Users/michaelriedel/local.roswithasschneiderstube.de/index.php"
+		"/Users/michaelriedel/Dropbox/Studium/Wahlpflichtmodule/MOP2/Uebungen/Uebung7/picviewer/picviewer/picview.cpp"
 	],
 	"find":
 	{
@@ -522,6 +603,67 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"../html",
+			"saveProject",
+			"importFile",
+			"setCentralWidget",
+			"import",
+			"controlFlowGraph",
+			"CONTROL_FLOW_GRAPH_H",
+			"controlFlowGraph",
+			"CONTROL_FLOW",
+			"controlFlowGraph",
+			"cfgTab",
+			"architecture",
+			"Architecture",
+			"architecture",
+			"filename",
+			"Filename",
+			"filename",
+			"labelLayout",
+			"activeDocument",
+			"programNameLabel",
+			"activeDocumentLabel",
+			"documentArea",
+			"QTextEdit",
+			"this->document().",
+			"QTextDocument::",
+			"blockCount()",
+			"blockCount",
+			"BlockCount",
+			"blockCount",
+			"codeEditor",
+			"CodeEditor",
+			"()",
+			"QPlainTextEdit",
+			"LINE_NUMBERS_H",
+			"myMainWidget",
+			"llvmHighlighter",
+			"LLVM_HIGHLIGHTER_H",
+			"llvmHighlighter",
+			"mainWidget",
+			"MainWidget",
+			"mainWidget",
+			"MAIN_WIDGET_H",
+			"llvm_ir",
+			"LLVM_IR_H",
+			"LLVM_IR",
+			"llvm_ir",
+			"codeArea",
+			"documentArea",
+			"llvm_ir",
+			"llvmIR",
+			">\n",
+			"activeDocumentLabel",
+			"documentArea",
+			"activeDocument",
+			"memoryAllocation",
+			"VISUALIZER_DOCK_H",
+			"visualizerDock",
+			"w_visualizerDock",
+			"w_binaryDock",
+			"widget",
+			"widgetsInDock",
 			"vec",
 			"codeList",
 			"visualizerDock",
@@ -588,54 +730,7 @@
 			"Expanding",
 			"this->",
 			"addNewCode",
-			"updateSettings",
-			"treeWidget",
-			"TreeWidget",
-			"treeWidget",
-			"addNewCode",
-			"RowHeight",
-			"setText",
-			"abortCode",
-			"mainLayout",
-			"QSpinBox",
-			"array",
-			"setColor",
-			"tag",
-			"format",
-			"codingArea",
-			"coding-Area",
-			"textArea",
-			"l_codingWindow",
-			"picMessageBox",
-			"PicView",
-			"myDialog",
-			"myAnsichtMenu",
-			"myDateiMenu",
-			"$i",
-			"i",
-			"Color",
-			"color",
-			"Color",
-			"color",
-			"Color",
-			"color",
-			"Color",
-			"color",
-			"ROOTFS",
-			"KERNELSRC",
-			"KEYFILE",
-			"keyfile",
-			"KEYFILE",
-			"PASSWORD",
-			"picosafe",
-			"Picosafe",
-			"picosafe",
-			"fold",
-			"Subtitle",
-			"Title",
-			"title",
-			"Title",
-			"roswithasschneiderstube"
+			"updateSettings"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -693,7 +788,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 385.0
+		"height": 280.0
 	},
 	"output.find_results":
 	{
@@ -741,7 +836,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 276.0,
+	"side_bar_width": 285.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

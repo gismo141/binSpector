@@ -29,16 +29,13 @@ view::binspector::binspector() : QMainWindow(NULL)
 
 void view::binspector::setupFileDialogs(void)
 {
-    // Open Project Dialog
     myProjectDialog = new QFileDialog(this);
     myProjectDialog->setNameFilter("Project (*" + projectExtension + ")");
 
-    // Open File Dialog
     myFileDialog = new QFileDialog(this);
-    //myFileDialog->setFilter(QDir::AllDirs | QDir::Files | QDir::Executable);
     myFileDialog->setNameFilter("Applications (*.app *)");
 
-    /* Connect Signals */
+    connect (myProjectDialog, SIGNAL(fileSelected(const QString &)), this, SLOT(openProject(const QString &)));
     connect (myFileDialog, SIGNAL(fileSelected(const QString &)), this, SLOT(openFile(const QString &)));
 }
 
@@ -169,8 +166,7 @@ void view::binspector::openFile(const QString &name)
     if (!QDir("/tmp/binSpector/" + activeBinary).exists())
         QDir().mkdir("/tmp/binSpector/" + activeBinary);
 
-    //basicInfoTab->setFilename(activeBinary + "." + file.suffix());
-    basicInfoTab->setFilename("main.cpp");
+    basicInfoTab->setFilename(activeBinary + "." + file.suffix());
 }
 
 void view::binspector::saveProject()

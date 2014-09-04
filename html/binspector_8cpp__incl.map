@@ -1,0 +1,12 @@
+<map id="binSpector/view/binspector.cpp" name="binSpector/view/binspector.cpp">
+<area shape="rect" id="node3" href="$binspector_8h.html" title="binspector.h" alt="" coords="1267,80,1358,107"/>
+<area shape="rect" id="node22" href="$help_8h.html" title="view/mainWidget/help\l/help.h" alt="" coords="650,162,797,203"/>
+<area shape="rect" id="node23" href="$llvm__ir_8h.html" title="view/mainWidget/llvm\l_ir/llvm_ir.h" alt="" coords="303,162,447,203"/>
+<area shape="rect" id="node26" href="$gui_functions_8cpp.html" title="view/guiFunctions.cpp" alt="" coords="167,80,314,107"/>
+<area shape="rect" id="node11" href="$basic_info_8h.html" title="view/binary/basicInfo.h" alt="" coords="472,169,625,196"/>
+<area shape="rect" id="node17" href="$call_graph_8h.html" title="view/visualizer/callGraph\l/callGraph.h" alt="" coords="1444,162,1608,203"/>
+<area shape="rect" id="node18" href="$control_flow_graph_8h.html" title="view/visualizer/controlFlow\lGraph/controlFlowGraph.h" alt="" coords="1632,162,1804,203"/>
+<area shape="rect" id="node19" href="$control_and_data_flow_graph_8h.html" title="view/visualizer/controlAnd\lDataFlowGraph/controlAndDataFlow\lGraph.h" alt="" coords="2111,155,2344,211"/>
+<area shape="rect" id="node21" href="$memory_allocation_8h.html" title="view/visualizer/memoryAllocation\l/memoryAllocation.h" alt="" coords="1828,162,2035,203"/>
+<area shape="rect" id="node24" href="$clang_highlighter_8h.html" title="../../../control/syntax\l/clang/clangHighlighter.h" alt="" coords="316,259,472,300"/>
+</map>
