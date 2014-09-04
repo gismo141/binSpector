@@ -551,32 +551,7 @@ compiler_objective_c_clean:
 compiler_rcc_make_all: qrc_style.cpp
 compiler_rcc_clean:
 	-$(DEL_FILE) qrc_style.cpp
-qrc_style.cpp: qdarkstyle/style.qrc \
-		qdarkstyle/rc/Vsepartoolbar.png \
-		qdarkstyle/rc/up_arrow_disabled.png \
-		qdarkstyle/rc/close.png \
-		qdarkstyle/rc/down_arrow.png \
-		qdarkstyle/rc/transparent.png \
-		qdarkstyle/rc/branch_closed-on.png \
-		qdarkstyle/rc/Hsepartoolbar.png \
-		qdarkstyle/rc/branch_open-on.png \
-		qdarkstyle/rc/right_arrow_disabled.png \
-		qdarkstyle/rc/undock.png \
-		qdarkstyle/rc/Hmovetoolbar.png \
-		qdarkstyle/rc/up_arrow.png \
-		qdarkstyle/rc/branch_open.png \
-		qdarkstyle/rc/left_arrow_disabled.png \
-		qdarkstyle/rc/stylesheet-vline.png \
-		qdarkstyle/rc/branch_closed.png \
-		qdarkstyle/rc/left_arrow.png \
-		qdarkstyle/rc/right_arrow.png \
-		qdarkstyle/rc/checkbox.png \
-		qdarkstyle/rc/stylesheet-branch-end.png \
-		qdarkstyle/rc/stylesheet-branch-more.png \
-		qdarkstyle/rc/Vmovetoolbar.png \
-		qdarkstyle/rc/down_arrow_disabled.png \
-		qdarkstyle/rc/sizegrip.png \
-		qdarkstyle/style.qss
+qrc_style.cpp: qdarkstyle/style.qrc
 	/Users/michaelriedel/Qt/5.3/clang_64/bin/rcc -name style qdarkstyle/style.qrc -o qrc_style.cpp
 
 compiler_moc_header_make_all: moc_binspector.cpp moc_codeEditor.cpp moc_basicInfo.cpp moc_clangHighlighter.cpp moc_llvmHighlighter.cpp moc_help.cpp moc_llvm_ir.cpp moc_callGraph.cpp moc_controlAndDataFlowGraph.cpp moc_controlFlowGraph.cpp moc_memoryAllocation.cpp
