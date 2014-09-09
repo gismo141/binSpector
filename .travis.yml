@@ -8,4 +8,7 @@ before_install:
  - sudo apt-get update -qq
  - sudo apt-get install -qq qt5-qmake qtbase5-dev qtdeclarative5-dev libqt5webkit5-dev libsqlite3-dev
 script:
- - sh -c "qmake -project && echo QT += widgets >> *.pro && qmake && make"
+ - "qmake -project"
+ - "echo QT += widgets >> binSpector.pro"
+ - "qmake"
+ - "make"
