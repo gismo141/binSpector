@@ -11,4 +11,5 @@ script:
  - "qmake -project"
  - "echo QT += widgets >> binSpector.pro"
  - "qmake"
+ - "export CXXFLAGS=-std=c++11"
  - "make"
