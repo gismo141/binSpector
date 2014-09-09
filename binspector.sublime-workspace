@@ -441,7 +441,6 @@
 		"/Users/michaelriedel/Developer/binSpector/control/disassembler",
 		"/Users/michaelriedel/Developer/binSpector/documentation",
 		"/Users/michaelriedel/Developer/binSpector/documentation/images",
-		"/Users/michaelriedel/Developer/binSpector/model",
 		"/Users/michaelriedel/Developer/binSpector/view",
 		"/Users/michaelriedel/Developer/binSpector/view/binary",
 		"/Users/michaelriedel/Developer/binSpector/view/mainWidget",
@@ -455,6 +454,7 @@
 	],
 	"file_history":
 	[
+		"/Users/michaelriedel/Developer/binSpector/main.cpp",
 		"/Users/michaelriedel/Developer/binSpector/control/disassembler/disassembler.h",
 		"/Users/michaelriedel/.bashrc",
 		"/Library/Caches/Homebrew/libcxx/Makefile",
@@ -485,7 +485,6 @@
 		"/Users/michaelriedel/Developer/LLVM.tmLanguage",
 		"/Users/michaelriedel/Developer/binSpector/view/visualizer/controlAndDataFlowGraph/controlAndDataFlowGraph.h",
 		"/Users/michaelriedel/Downloads/graph.dot",
-		"/Users/michaelriedel/Developer/binSpector/main.cpp",
 		"/Users/michaelriedel/Developer/binSpector/binSpector.pro",
 		"/Users/michaelriedel/Developer/binSpector/control/codeEditor/codeEditor.h",
 		"/Users/michaelriedel/Developer/binSpector/control/codeEditor/codeEditor.cpp",
