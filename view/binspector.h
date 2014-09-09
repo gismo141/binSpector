@@ -35,9 +35,9 @@ protected:
     QFileDialog             *myProjectDialog;
 
     QString                 activeBinary;
-    QString                 temporaryFolder = "/tmp/binSpector/";
+    QString                 temporaryFolder;
     QString                 targetFolder;
-    QString                 projectExtension = ".binsp";
+    QString                 projectExtension;
 
     QWidget                 *mainWidget;
     QDockWidget             *binaryDock;

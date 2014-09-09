@@ -19,8 +19,11 @@ view::binspector::binspector() : QMainWindow(NULL)
     myMenu->addMenu(setupHelpMenu());
     this->setMenuBar(myMenu);
 
-    if (!QDir("/tmp/binSpector/").exists())
-        QDir().mkdir("/tmp/binSpector/");
+    temporaryFolder = "/tmp/binSpector/";
+    projectExtension = ".binsp";
+    
+    if (!QDir(temporaryFolder).exists())
+        QDir().mkdir(temporaryFolder);
 
     setupBinaryDock();
     setupVisualizerDock();
