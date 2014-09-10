@@ -1,8 +1,0 @@
-<map id="binSpector/view/visualizer" name="binSpector/view/visualizer">
-<area shape="rect" id="node2" href="dir_721994729246319ea92d8deb8fad4458.html" title="callGraph" alt="" coords="524,63,601,111"/>
-<area shape="rect" id="node3" href="dir_335ca3dd4c255b17ee00c3e6c6cbf5a5.html" title="controlAndDataFlowGraph" alt="" coords="327,63,500,111"/>
-<area shape="rect" id="node4" href="dir_e9f4b6277e842ec1371161622fdd07d0.html" title="controlFlowGraph" alt="" coords="181,63,302,111"/>
-<area shape="rect" id="node5" href="dir_070e408bb122f1538bf27b062cdd987d.html" title="memoryAllocation" alt="" coords="38,63,157,111"/>
-<area shape="rect" id="clust2" href="dir_fce3fba96de26918bb76ba2939157818.html" alt="" coords="27,52,711,121"/>
-<area shape="rect" id="clust1" href="dir_7393186298cd9af33d84647a06c0b99c.html" title="view" alt="" coords="16,16,721,132"/>
-</map>

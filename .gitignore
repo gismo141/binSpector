@@ -1,0 +1,9 @@
+Makefile
+moc_*
+.qmake.stash
+*.o
+*.pro
+*.app
+*.sublime-project
+*.sublime-workspace
+html/

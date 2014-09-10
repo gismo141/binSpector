@@ -1,8 +1,0 @@
-<map id="binSpector/view/mainWidget" name="binSpector/view/mainWidget">
-<area shape="rect" id="node2" href="dir_0f8aab85fbff4cdd6b532a33091b97a8.html" title="help" alt="" coords="133,63,205,111"/>
-<area shape="rect" id="node3" href="dir_fa82f0a3584f431823c4cf87004892c5.html" title="llvm_ir" alt="" coords="37,63,109,111"/>
-<area shape="rect" id="node4" href="dir_b2778d6c16852409232be54fb6590814.html" title="control" alt="" coords="37,159,109,207"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000010_000001.html" title="3" alt="" coords="78,133,86,148"/>
-<area shape="rect" id="clust2" href="dir_bee5ee0b95879cc9358e49a7c22259e0.html" alt="" coords="27,52,328,121"/>
-<area shape="rect" id="clust1" href="dir_7393186298cd9af33d84647a06c0b99c.html" title="view" alt="" coords="16,16,339,132"/>
-</map>

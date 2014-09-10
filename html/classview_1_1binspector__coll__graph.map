@@ -1,7 +1,0 @@
-<map id="view::binspector" name="view::binspector">
-<area shape="rect" id="node2" href="$classview_1_1binary_1_1basic_info.html" title="{view::binary::basicInfo\n|# thisParent\l|+ basicInfo()\l+ setFilename()\l}" alt="" coords="5,13,152,105"/>
-<area shape="rect" id="node3" href="$classview_1_1visualizer_1_1control_and_data_flow_graph.html" title="{view::visualizer::control\lAndDataFlowGraph\n|# thisParent\l|+ controlAndDataFlowGraph()\l+ paintEvent()\l}" alt="" coords="177,5,370,112"/>
-<area shape="rect" id="node4" href="$classview_1_1visualizer_1_1control_flow_graph.html" title="{view::visualizer::control\lFlowGraph\n|# thisParent\l|+ controlFlowGraph()\l+ paintEvent()\l}" alt="" coords="394,5,542,112"/>
-<area shape="rect" id="node5" href="$classview_1_1visualizer_1_1call_graph.html" title="{view::visualizer::callGraph\n|# thisParent\l|+ callGraph()\l+ paintEvent()\l}" alt="" coords="567,13,735,105"/>
-<area shape="rect" id="node6" href="$classview_1_1visualizer_1_1memory_allocation.html" title="{view::visualizer::memory\lAllocation\n|# thisParent\l|+ memoryAllocation()\l+ paintEvent()\l}" alt="" coords="759,5,916,112"/>
-</map>

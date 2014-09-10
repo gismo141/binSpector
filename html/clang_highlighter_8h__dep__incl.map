@@ -1,8 +1,0 @@
-<map id="binSpector/control/syntax/clang/clangHighlighter.h" name="binSpector/control/syntax/clang/clangHighlighter.h">
-<area shape="rect" id="node2" href="$code_editor_8h.html" title="binSpector/control\l/codeEditor/codeEditor.h" alt="" coords="13,95,169,136"/>
-<area shape="rect" id="node5" href="$clang_highlighter_8cpp.html" title="binSpector/control\l/syntax/clang/clangHighlighter.cpp" alt="" coords="193,95,407,136"/>
-<area shape="rect" id="node6" href="$llvm__ir_8h.html" title="binSpector/view/mainWidget\l/llvm_ir/llvm_ir.h" alt="" coords="431,95,614,136"/>
-<area shape="rect" id="node3" href="$code_editor_8cpp.html" title="binSpector/control\l/codeEditor/codeEditor.cpp" alt="" coords="5,184,176,225"/>
-<area shape="rect" id="node4" href="$llvm__ir_8cpp.html" title="binSpector/view/mainWidget\l/llvm_ir/llvm_ir.cpp" alt="" coords="207,184,390,225"/>
-<area shape="rect" id="node7" href="$binspector_8cpp.html" title="binSpector/view/binspector.cpp" alt="" coords="423,191,623,218"/>
-</map>
