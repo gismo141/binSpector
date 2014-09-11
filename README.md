@@ -14,7 +14,7 @@ After the disassembly the LLVM-code will be analysed to present the code-structu
 The UI consists of a 3-pane view. The leftmost is a tabbed-dock that presents technical information about the binary actually analysed. The combo-boxes *Architecture* and *Compiler* are used to determine the project to use for the disassembly. Later these switches could be used for cross-compilation or other fun-stuff.
 
 <p >
-  <img src="https://raw.github.com/gismo141/binSpector/master/documentation/images/fakeDisassembly.png" alt="faked disassembly" width="1024px"/>
+  <img src="https://raw.github.com/gismo141/binSpector/master/docs/images/fakeDisassembly.png" alt="faked disassembly" width="1024px"/>
 </p>
 
 The main-area is meant to present everything that is code. This could be the direct assembly, LLVM-IR (llvm's intermediate representation) or later C-code.
