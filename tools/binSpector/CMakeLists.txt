@@ -16,29 +16,23 @@ SET( _MOC_HDRS
 
 QT5_WRAP_CPP( _MOC_SRCS ${_MOC_HDRS} )
 
-# standalone executable
-#ADD_EXECUTABLE(binSpector main.cpp ${_MOC_SRCS})
-
-# .app  - bundled executable
 IF( APPLE )
 	ADD_EXECUTABLE(
-		${PROGNAME}
-		MACOSX_BUNDLE
-		main.cpp
-		${_SRCS}
-		${_MOC_SRCS}
+		${PROGNAME} MACOSX_BUNDLE main.cpp ${_SRCS} ${_MOC_SRCS}
 	)
     ADD_CUSTOM_COMMAND( TARGET ${PROGNAME} POST_BUILD
-    	COMMAND mkdir ARGS -p ${CMAKE_CURRENT_BINARY_DIR}/${PROGNAME}.app/Contents/Resources
-    	COMMAND cp ARGS ../../../${MACOSX_BUNDLE_ICON_FILE} ${CMAKE_CURRENT_BINARY_DIR}/${PROGNAME}.app/Contents/Resources
-    	COMMAND cp ARGS ../../../*.md ${CMAKE_CURRENT_BINARY_DIR}/${PROGNAME}.app/Contents/Resources
+    	COMMAND mkdir ARGS -p
+    	${CMAKE_CURRENT_BINARY_DIR}/${PROGNAME}.app/Contents/Resources
+    	COMMAND cp ARGS
+    	../../../${MACOSX_BUNDLE_ICON_FILE}
+    	${CMAKE_CURRENT_BINARY_DIR}/${PROGNAME}.app/Contents/Resources
+    	COMMAND cp ARGS
+    	../../../*.md
+    	${CMAKE_CURRENT_BINARY_DIR}/${PROGNAME}.app/Contents/Resources
     )
 ELSE( APPLE )
 	ADD_EXECUTABLE(
-		${PROGNAME}
-		main.cpp
-		${_SRCS}
-		${_MOC_SRCS}
+		${PROGNAME} main.cpp ${_SRCS} ${_MOC_SRCS}
 	)
 ENDIF( APPLE )
 

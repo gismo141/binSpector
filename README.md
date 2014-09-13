@@ -104,7 +104,7 @@ brew install doxygen
 ##### 1. Set your desired installation-path (everything after `=`):
 
 ```Shell
-export DESTINATION=$HOME/Developer
+export DESTINATION=$HOME/Developer/binSpector
 ```
 
 ##### 2. Clone this repository:

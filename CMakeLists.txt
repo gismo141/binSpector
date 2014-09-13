@@ -1,4 +1,8 @@
 PROJECT(binSpector)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8.7)
+SET( CMAKE_COLOR_MAKEFILE ON )
+SET( CMAKE_VERBOSE_MAKEFILE ON )
+SET( CMAKE_INCLUDE_CURRENT_DIR TRUE )
 
 IF( APPLE )
 	SET( PROGNAME binSpector )
@@ -10,23 +14,12 @@ ELSE( APPLE )
 	SET( PROGNAME binSpector )
 ENDIF( APPLE )
 
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8.7)
-SET( CMAKE_COLOR_MAKEFILE ON )
-SET( CMAKE_VERBOSE_MAKEFILE ON )
-SET( CMAKE_INCLUDE_CURRENT_DIR TRUE )
-
-##################
-#### Qt Stuff ####
-##################
-
 # Instruct CMake to run moc automatically when needed.
 SET(CMAKE_AUTOMOC ON)
 # Find includes in corresponding build directories
 SET(CMAKE_INCLUDE_CURRENT_DIR ON)
 # Find the QtWidgets library
 FIND_PACKAGE(Qt5Core REQUIRED)
-
-##################
 
 INCLUDE_DIRECTORIES("include")
 
