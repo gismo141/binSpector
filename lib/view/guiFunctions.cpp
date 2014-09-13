@@ -7,12 +7,12 @@ void view::setHeight(QPlainTextEdit *edit, int nRows)
     edit -> setFixedHeight(nRows * rowHeight);
 }
 
-std::string view::exec(const char *cmd)
+QString view::exec(QString cmd)
 {
-    FILE *pipe = popen(cmd, "r");
+    FILE *pipe = popen(cmd.toUtf8(), "r");
     if (!pipe) return "ERROR";
     char buffer[128];
-    std::string result = "";
+    QString result = "";
     while (!feof(pipe))
     {
         if (fgets(buffer, 128, pipe) != NULL)

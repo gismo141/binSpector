@@ -10,10 +10,10 @@
 #include <QTextEdit>
 
 #include "view/binary/basicInfo.h"
-#include "view/visualizer/callGraph/callGraph.h"
-#include "view/visualizer/controlFlowGraph/controlFlowGraph.h"
-#include "view/visualizer/controlAndDataFlowGraph/controlAndDataFlowGraph.h"
-#include "view/visualizer/memoryAllocation/memoryAllocation.h"
+#include "view/visualizer/callGraph.h"
+#include "view/visualizer/controlFlowGraph.h"
+#include "view/visualizer/controlAndDataFlowGraph.h"
+#include "view/visualizer/memoryDependence.h"
 
 namespace view
 {
@@ -29,6 +29,9 @@ private:
 
     void                    setupBinaryDock(void);
     void                    setupVisualizerDock(void);
+
+    bool                    parseAnalysisFile(QString line);
+    bool                    writeAnalysisFile(QString analysisFilePath);
 protected:
     QMenuBar                *myMenu;
     QFileDialog             *myFileDialog;
@@ -39,7 +42,9 @@ protected:
     QString                 temporaryFolder;
     QString                 targetFolder;
     QString                 projectExtension;
+    QString                 analysisExtension;
 
+    QTabWidget              *tabbedCentralWidget;
     QWidget                 *helpWidget;
     QDockWidget             *binaryDock;
     QDockWidget             *visualizerDock;
@@ -48,7 +53,7 @@ protected:
     view::visualizer::callGraph                 *callTab;
     view::visualizer::controlFlowGraph          *cfgTab;
     view::visualizer::controlAndDataFlowGraph   *cfgDfgTab;
-    view::visualizer::memoryAllocation          *memTab;
+    view::visualizer::memoryDependence          *memTab;
 public:
     /**
      * @brief std. ctor
@@ -58,9 +63,9 @@ public:
 
     void addBinaryTab(QWidget *newTab, const char *tabName);
     void addVisualizerTab(QWidget *newTab, const char *tabName);
-    void showCentralWidget(QWidget *newCentralWidget);
+    void showCentralWidget(QWidget *newCentralWidget, QString tabName);
 
-    QString getActiveAnalysis(void);
+    QString getActiveAnalysisPath(void);
     QString getActiveBinaryPath(void);
     QString getActiveBinaryArchitecture(void);
 public slots:
@@ -73,8 +78,10 @@ public slots:
         QMessageBox::about(this, "binSpector", "binSpector is a fast, simple and extensable binary inspector GUI using the projects LLVM, dagger and fracture.\n\n\t(C) by Michael Riedel, 2014");
     }
     void openFile(const QString &name);
+    void openProject(const QString &name);
     void showHelp(void);
     void saveProject(void);
 };
-}
+} // view
+
 #endif // BINSPECTOR_H
