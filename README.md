@@ -88,7 +88,7 @@ brew install pandoc
 This Python-tool is used to highlight every file that will be shown in the central-area of `binSpector`. Every highlighted file will also be saved in the folder-structure under `/texts/{architecture}.{language}.html`. That saves some time on resize-events because the highlighted code can be reused.
 
 ```Shell
-pip install Pygments
+sudo easy_install Pygments
 ```
 
 ### Doxygen
