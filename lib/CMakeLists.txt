@@ -1,6 +1,5 @@
 INCLUDE_DIRECTORIES("control")
 INCLUDE_DIRECTORIES("view")
-
 ADD_LIBRARY(binSpectorLib
 	./control/codeEditor.cpp
 	./control/Disassembler.cpp

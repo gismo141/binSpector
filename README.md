@@ -2,6 +2,8 @@
 
 **VERY EARLY STAGE OF DEVELOPMENT**
 
+Die zum Projekt zugehörige Studienarbeit befindet sich [hier](https://github.com/gismo141/Studienarbeit).
+
 ## Overview
 
 `binSpector` is a Qt5-driven open-source application that uses [dagger](http://dagger.repzret.org) and [fracture](https://github.com/draperlaboratory/fracture) for disassembling and decompiling *ARM*, *PPC* and *x86* (*i386* and *x86_64*)-binaries to [LLVM-IR](http://llvm.org/docs/LangRef.html).
@@ -180,4 +182,3 @@ You can always use the web-interface to make the changes you want. It helps you 
 [fork]: http://help.github.com/forking/
 [branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
 [pr]: http://help.github.com/pull-requests/
-

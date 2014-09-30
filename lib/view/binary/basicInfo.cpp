@@ -106,10 +106,8 @@ void view::binary::basicInfo::disassemble(void)
     m_codeWidget = new view::mainWidget::codeViewer(false, true, "nasm");
     ((view::binspector *) m_parent)->showCentralWidget(m_codeWidget, "DIS(" + getArchitecture() + ", -" + m_disassembleOptions->toPlainText() + ")");
 
-    QString disassembledFilePath = ((view::binspector *) m_parent)->getActiveAnalysisPath() + "/texts/" + getArchitecture() + ".asm";
+    QString disassembledFilePath = ((view::binspector *) m_parent)->getActiveAnalysisPath() + "/texts/" + getArchitecture() + "." + m_disassembleOptions->toPlainText() + ".asm";
     QString highlightedFilePath = disassembledFilePath + ".html";
-    QFile disassembledFile(disassembledFilePath);
-    QFile highlightedFile(highlightedFilePath);
 
     m_disassembler = new control::Disassembler(((view::binspector *) m_parent)->getActiveBinaryPath(),
             disassembledFilePath,
@@ -127,10 +125,9 @@ void view::binary::basicInfo::decompileIR(void)
     m_codeWidget = new view::mainWidget::codeViewer(false, true, "llvm");
     ((view::binspector *) m_parent)->showCentralWidget(m_codeWidget, "LLVM-IR" + getArchitecture() + ", -" + m_decompileOptions->toPlainText() + ")");
 
-    QString decompiledFilePath = ((view::binspector *) m_parent)->getActiveAnalysisPath() + "/texts/" + getArchitecture() + ".ll";
+    //QString decompiledFilePath = ((view::binspector *) m_parent)->getActiveAnalysisPath() + "/texts/" + getArchitecture() + "." + m_decompileOptions->toPlainText() + ".ll";
+    QString decompiledFilePath = ((view::binspector *) m_parent)->getActiveAnalysisPath() + "/texts/" + getArchitecture() + ".tV.ll";
     QString highlightedFilePath = decompiledFilePath + ".html";
-    QFile decompiledFile(decompiledFilePath);
-    QFile highlightedFile(highlightedFilePath);
 
     m_decompiler = new control::Disassembler(((view::binspector *) m_parent)->getActiveBinaryPath(),
             decompiledFilePath,
